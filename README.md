@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This repository hosts the source code for my professional profile page, showcasing my projects, skills, and contact details.
 
 ## 🚀 Live Site
-You can view the live website here: **https://github.com/blackphoenix369/portfolio**
+You can view the live website here: **https://blackphoenix369.github.io/portfolio/**
 
 ## 🛠️ Built With
 * **HTML5** & **CSS3** (Clean, responsive dark-mode design)
