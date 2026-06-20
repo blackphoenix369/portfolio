@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit | Developer Portfolio</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem 1rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--muted);
+            font-size: 1.1rem;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+        }
+
+        .project-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-card h3 {
+            color: var(--accent);
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-tags {
+            margin: 0.5rem 0 1rem 0;
+        }
+
+        .tag {
+            background: #334155;
+            color: #e2e8f0;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            display: inline-block;
+        }
+
+        .project-links {
+            margin-top: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #0f172a;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: #334155;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Rohit Chakraborty</h1>
+            <p>Full Stack Developer</p>
+            <div class="contact-info">
+                Email: <a href="mailto:30rohit2004@gmail.com">30rohit2004@gmail.com</a> | 
+                GitHub: <a href="https://github.com/blackphoenix369" target="_blank">github.com/blackphoenix369</a>
+            </div>
+        </header>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+
+            <div class="project-card">
+                <h3>JSON Craft (JSON Formatter & Validator)</h3>
+                <div class="project-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Google Antigravity</span>
+                </div>
+                <p>A fast, lightweight developer utility to parse, clean, format, and minify raw JSON payloads with built-in real-time syntax checking. Developed inside Google Antigravity and optimized for instant layout processing.</p>
+                <div class="project-links">
+                    <a href="https://vercel.com/blackphoenix369s-projects/json-syntax-hero/EVP7YGk6hqyqD9Ts9kUKT7zjk77Q" target="_blank" class="btn">Live Tool</a>
+                    <a href="https://github.com/blackphoenix369/JSON-Syntax-Hero" target="_blank" class="btn btn-secondary">Source Code</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
